@@ -96,8 +96,8 @@ app.get("/users/:name", (req, res) => {
 
 const { PORT = 1337 } = process.env;
 
-app.listen(port, () => {
-  console.log(`App listening in port ${port}`);
+app.listen(PORT, () => {
+  console.log(`App listening in port ${PORT}`);
 });
 
 //comment
